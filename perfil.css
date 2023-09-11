@@ -1,0 +1,23 @@
+    .nome {
+        background-color: rgb(98, 98, 234);
+        color: aliceblue;
+        border: solid darkblue;
+        border-radius: 20px;
+        padding: 10PX;
+        font-style: normal;
+        font-size: larger;
+        text-align: center;
+    }
+    
+    img {
+        max-width: 200px;
+        max-height: 150px;
+        border-radius: 30%;
+    }
+    
+    .foto1 {
+        background-color: rgb(98, 98, 234);
+        border: solid darkblue;
+        border-radius: 10px, 10px;
+        border-top: 10px;
+    }
