@@ -1,23 +1,36 @@
-    .nome {
-        background-color: rgb(98, 98, 234);
-        color: aliceblue;
-        border: solid darkblue;
-        border-radius: 20px;
-        padding: 10PX;
-        font-style: normal;
-        font-size: larger;
-        text-align: center;
-    }
-    
-    img {
-        max-width: 200px;
-        max-height: 150px;
-        border-radius: 30%;
-    }
-    
-    .foto1 {
-        background-color: rgb(98, 98, 234);
-        border: solid darkblue;
-        border-radius: 10px, 10px;
-        border-top: 10px;
-    }
+body {
+    display: flexbox;
+}
+
+.nome {
+    background-color: rgb(98, 98, 234);
+    color: aliceblue;
+    border: solid darkblue;
+    border-radius: 20px, 20px;
+    padding: 10PX;
+    font-style: normal;
+    font-size: larger;
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 30%;
+    border: solid black 5px;
+}
+
+.foto1 {
+    background-color: rgb(98, 98, 234);
+    border: solid darkblue;
+    border-radius: 10px, 10px;
+    border-top: 10px;
+    border: solid black;
+}
+
+.infos {
+    color: aliceblue;
+    float: right;
+    max-width: 2000px;
+    margin-right: 1300px;
+}
