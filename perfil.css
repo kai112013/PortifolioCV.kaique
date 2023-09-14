@@ -1,5 +1,5 @@
 body {
-    display: flexbox;
+    display: contents;
 }
 
 .nome {
@@ -33,4 +33,12 @@ img {
     float: right;
     max-width: 2000px;
     margin-right: 1300px;
+}
+
+.cor1 {
+    color: white;
+    background-color: white;
+    border-color: white;
+    border-bottom: white;
+    border-right: white;
 }
